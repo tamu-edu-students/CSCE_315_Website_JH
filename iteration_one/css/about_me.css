@@ -11,6 +11,19 @@ button {
     position: relative;
     border: none;
     background-color: darkgray;
+    padding: 5px;
+}
+
+a.button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    border: none;
+    background-color: #a9a9a9;
+    text-decoration: black;
+    padding: 5px;
 }
 
 body {
@@ -137,7 +150,7 @@ p {
 #dot_8 {
     height: 200px;
     width: 200px;
-    margin: -100px 0 0 200px;
+    margin: -110px 0 0 200px;
     background-color: rgba(0, 169, 116, 0.8);
     border-radius: 50%;
     display: inline-block;

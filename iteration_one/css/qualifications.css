@@ -11,6 +11,19 @@ button {
     position: relative;
     border: none;
     background-color: darkgray;
+    padding: 5px;
+}
+
+a.button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    border: none;
+    background-color: #a9a9a9;
+    text-decoration: black;
+    padding: 5px;
 }
 
 body {
