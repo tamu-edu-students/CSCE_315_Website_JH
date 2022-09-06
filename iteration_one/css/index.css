@@ -1,7 +1,7 @@
 html {
     margin: 0;
     padding: 0;
-    }
+}
 
 button {
     height: fit-content;
@@ -14,33 +14,32 @@ button {
 }
 
 body {
-    background: #8db6f8;
+    background: radial-gradient(#8db6f8 50%, rgba(20, 71, 168, 0.53) 100%);
     align-content: center;
     align-items: center;
 }
 
 h1 {
-        border: none;
-        text-align: center;
-        font: 50% Cantarell, sans-serif;
-        margin: 10px 60px;
-        scale: 100%;
-        padding: 10px;
-        border-bottom: solid 8px #ffffff;
-    }
+    border: none;
+    text-align: center;
+    font: 50% Cantarell, sans-serif;
+    margin: 10px 60px;
+    scale: 100%;
+    padding: 10px;
+    border-bottom: solid 8px #ffffff;
+}
 
 h2 {
     font: 75% 'Cantarell Thin', sans-serif;
     font-size: 40px;
     line-height: 0.5;
-    background: #8db6f8;
     color: black;
     text-align: center;
 }
 
 img {
     display: block;
-    margin: 0px auto 5px auto;
+    margin: 0 auto 5px auto;
     width: 60%;
     border: solid 4px #ffffff;
     padding: 10px;

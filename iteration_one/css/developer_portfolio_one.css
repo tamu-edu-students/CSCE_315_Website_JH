@@ -2,6 +2,7 @@ html {
     margin: 0;
     padding: 0;
 }
+
 button {
     height: fit-content;
     width: fit-content;
@@ -11,11 +12,13 @@ button {
     border: none;
     background-color: darkgray;
 }
+
 body {
-    background: #8db6f8;
+    background: radial-gradient(#8db6f8 50%, rgba(20, 71, 168, 0.53) 100%);
     align-content: center;
     align-items: center;
 }
+
 h1 {
     border: none;
     text-align: center;
@@ -25,11 +28,11 @@ h1 {
     padding: 10px;
     border-bottom: solid 8px #ffffff;
 }
+
 h2 {
     font: 75% 'Cantarell Thin', sans-serif;
     font-size: 40px;
     line-height: 0.5;
-    background: #8db6f8;
     color: black;
     text-align: center;
 }
