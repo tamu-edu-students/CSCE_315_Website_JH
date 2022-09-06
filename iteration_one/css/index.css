@@ -41,7 +41,7 @@ h2 {
 img {
     display: block;
     margin: 0px auto 5px auto;
-    width: 50%;
+    width: 60%;
     border: solid 4px #ffffff;
     padding: 10px;
     background-color: rgba(92, 148, 255, 0.53)
@@ -52,6 +52,7 @@ p {
     margin: 0 75px;
     border: solid 4px #ffffff;
     padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
     font-size: 20px;
 }
@@ -75,7 +76,7 @@ p {
 #dot_1 {
     height: 250px;
     width: 250px;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 75px;
     background-color: rgba(0, 169, 116, 0.8);
     border-radius: 50%;
     display: inline-block;
@@ -115,7 +116,7 @@ p {
 #dot_5 {
     height: 400px;
     width: 400px;
-    margin: -25px 100px 0 0;
+    margin: -25px 100px 0 -100px;
     background-color: rgba(6, 79, 166, 0.8);
     border-radius: 50%;
     display: inline-block;
@@ -125,7 +126,7 @@ p {
 #dot_6 {
     height: 350px;
     width: 350px;
-    margin: -100px 0 0 -150px;
+    margin: -100px 0 0 -90px;
     background-color: rgba(0, 169, 116, 0.8);
     border-radius: 50%;
     display: inline-block;

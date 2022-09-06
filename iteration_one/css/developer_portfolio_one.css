@@ -34,6 +34,22 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font: 75% 'Cantarell Thin', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 150px;
+    border-bottom: solid 2px #ffffff;
+}
+
+h4 {
+    font: 75% 'Cantarell Thin', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 150px;
+    border-bottom: solid 2px #ffffff;
+}
+
 img {
     display: block;
     margin: 0 auto 5px auto;
@@ -44,6 +60,7 @@ img {
 p {
     align-self: center;
     padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
     font-size: 20px;
 }
 
@@ -64,3 +81,4 @@ p {
     border: solid 4px #ffffff;
     background-color: rgba(92, 148, 255, 0.53)
 }
+
