@@ -64,78 +64,78 @@ p {
 #dot_1 {
     height: 250px;
     width: 250px;
-    margin: -20px 0 0 20px;
-    background-color: rgba(68, 68, 159, 0.58);
+    margin: -20px 0 0 50px;
+    background-color: rgba(75, 134, 171, 0.8);
     border-radius: 50%;
     display: inline-block;
     align-self: center;
 }
 
 #dot_2 {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     margin: -150px 0 0 50px;
-    background-color: rgba(0, 169, 116, 0.8);
+    background-color: rgba(6, 79, 166, 0.8);
     border-radius: 50%;
     display: inline-block;
     align-self: center;
 }
 
 #dot_3 {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     margin: -250px 0 0 25px;
-    background-color: rgba(6, 79, 166, 0.8);
+    background-color: rgba(0, 169, 116, 0.8);
     border-radius: 50%;
     display: inline-block;
     align-self: center;
 }
 
 #dot_4 {
-    height: 300px;
-    width: 300px;
-    margin: -250px 0 0 25px;
-    background-color: rgba(41, 164, 50, 0.8);
-    border-radius: 50%;
-    display: inline-block;
-    align-self: center;
-}
-
-#dot_5 {
-    height: 400px;
-    width: 400px;
-    margin: 0 0 0 100px;
-    background-color: rgba(0, 183, 14, 0.5);
-    border-radius: 50%;
-    display: inline-block;
-    align-self: center;
-}
-
-#dot_6 {
-    height: 250px;
-    width: 250px;
-    margin: -150px 0 0 100px;
+    height: 350px;
+    width: 350px;
+    margin: -250px 0 0 200px;
     background-color: rgba(68, 68, 159, 0.58);
     border-radius: 50%;
     display: inline-block;
     align-self: center;
 }
 
+#dot_5 {
+    height: 200px;
+    width: 200px;
+    margin: -50px 0 0 100px;
+    background-color: rgba(0, 169, 116, 0.8);
+    border-radius: 50%;
+    display: inline-block;
+    align-self: center;
+}
+
+#dot_6 {
+    height: 400px;
+    width: 400px;
+    margin: -150px 0 0 100px;
+    background-color: rgba(0, 183, 14, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    align-self: center;
+}
+
 #dot_7 {
-    height: 300px;
-    width: 300px;
-    margin: -100px 50px 0 200px;
-    background-color: rgba(6, 79, 166, 0.8);
+    height: 250px;
+    width: 250px;
+    margin: -100px 0 0 50px;
+    background-color: rgba(75, 134, 171, 0.8);
     border-radius: 50%;
     display: inline-block;
     align-self: center;
 }
 
 #dot_8 {
-    height: 200px;
-    width: 200px;
-    margin: -100px 0 0 200px;
-    background-color: rgba(0, 169, 116, 0.8);
+    height: 450px;
+    width: 450px;
+    margin: -200px 50px 0 50px;
+    background-color: rgba(6, 79, 166, 0.8);
     border-radius: 50%;
     display: inline-block;
     align-self: center;
