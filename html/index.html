@@ -5,7 +5,6 @@
     <title>Joshua Hillis</title>
 </head>
 
-<body>
 <h1>
     <button onclick="location.href='index.html'" type="button"> Home </button>
     <button onclick="location.href='about_me.html'" type="button"> About Me </button>
@@ -15,18 +14,25 @@
     <button onclick="location.href='service_section.html'" type="button"> Service Section </button>
     Email: joshuahillis292002@tamu.edu Github:
 </h1>
+<body>
 <h2>
     HOME PAGE
 </h2>
-<h3>
-    <img src="../media/landing_page_selfie.jpg"
-         width=720>
-</h3>
-<p>
-    Hi, my name is Joshua Hillis. I'm currently a junior at Texas A&M University, studying computer science with a
-    concentration in cybersecurity. I spend the majority of my time in the cybersecurity space, competing in CTF
-    competitions, working as a student security analyst at A&M, and studying new exploits and industry trends. I'm always
-    eager to learn, and ready for new challenges!
-</p>
+<div class="row">
+    <div class="column">
+        <img id="landing_page_picture" src="../media/landing_page_selfie.jpg">
+    </div>
+    <div class="column"></div>
+    <div class="column"></div>
+</div>
+
+<div id="intro_writing">
+    <p>
+        Hi, my name is Joshua Hillis. I'm currently a junior at Texas A&M University, studying computer science with a
+        concentration in cybersecurity. I spend the majority of my time in the cybersecurity space, competing in CTF
+        competitions, working as a student security analyst at A&M, and studying new exploits and industry trends. I'm always
+        eager to learn, and ready for new challenges!
+    </p>
+</div>
 </body>
 </html>
