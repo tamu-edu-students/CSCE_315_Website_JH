@@ -3,28 +3,27 @@ html {
     padding: 0;
 }
 
-button {
-    height: fit-content;
-    width: fit-content;
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    border: none;
-    background-color: #a9a9a9;
-    padding: 5px;
+ul {
+    list-style-type: none;
+    margin: 5px 325px;
+    padding: 0;
+    overflow: hidden;
 }
 
-a.button {
-    height: fit-content;
-    width: fit-content;
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    border: none;
+li {
+    float: left;
     background-color: #a9a9a9;
-    text-decoration: black;
-    padding: 5px;
 }
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
 
 body {
     background: radial-gradient(#8db6f8 50%, rgba(20, 71, 168, 0.53) 100%);

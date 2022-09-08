@@ -1,0 +1,85 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    background-color: #75372a;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+body {
+    background: #252525;
+    align-content: center;
+    align-items: center;
+}
+
+h1 {
+    font: 50% Cantarell, sans-serif;
+    padding: 20px;
+    margin-right: 40%;
+    border-bottom: solid 10px rgba(199, 72, 43, 0.65);
+}
+
+h2 {
+    font: 75% Cantarell, sans-serif;
+    font-size: 50px;
+    line-height: 0.5;
+    margin: 50px 50px;
+    color: white;
+    text-align: left;
+}
+
+p {
+    margin: 10px 20px;
+    padding: 5px;
+    font: 100% "Cantarell Thin", sans-serif;
+    font-size: 20px;
+    color: white;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    border: solid 4px #75372a;
+}
+
+#contact_info {
+    margin: 30px 20px;
+    padding: 10px;
+    font: 100% "Cantarell Light", sans-serif;
+    font-size: 30px;
+    color: white;
+    border: none;
+}
+
+.column {
+    float: left;
+}
+
+#column_1 {
+    width: 10%
+}
+
+#column_2 {
+    width: 50%;
+}
+
+#column_3 {
+    width: 40%;
+}
+

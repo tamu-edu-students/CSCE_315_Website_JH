@@ -1,0 +1,84 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px 325px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    background-color: #a9a9a9;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+body {
+    background: radial-gradient(#8db6f8 50%, rgba(20, 71, 168, 0.53) 100%);
+    align-content: center;
+    align-items: center;
+}
+
+h1 {
+    border: none;
+    text-align: center;
+    font: 50% Cantarell, sans-serif;
+    margin: 10px 60px;
+    scale: 100%;
+    padding: 10px;
+    border-bottom: solid 8px #ffffff;
+}
+
+h2 {
+    font: 75% 'Cantarell Thin', sans-serif;
+    font-size: 40px;
+    line-height: 0.5;
+    color: black;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto 5px auto;
+    width: 60%;
+    border: solid 4px #ffffff;
+    padding: 10px;
+    background-color: rgba(92, 148, 255, 0.53)
+}
+
+p {
+    align-self: center;
+    margin: 0 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+.column {
+    float: left;
+}
+
+#column_1 {
+    width: 25%
+}
+
+#column_2 {
+    width: 50%;
+}
+
+#column_3 {
+    width: 25%;
+}

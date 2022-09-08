@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="../css/developer_portfolio_1.css">
     <meta charset="UTF-8">
     <title>Developer Portfolio</title>
 </head>
-<body>
+
 <h1>
-    <button onclick="location.href='index.html'" type="button"> Home </button>
-    <button onclick="location.href='about_me.html'" type="button"> About Me </button>
-    <button onclick="location.href='developer_portfolio.html'" type="button"> Developer Portfolio </button>
-    <button onclick="location.href='security_portfolio.html'" type="button"> Security Portfolio </button>
-    <button onclick="location.href='qualifications.html'" type="button"> Qualifications </button>
-    <button onclick="location.href='service_section.html'" type="button"> Service Section </button>
-    <a href="https://github.com/ThePirateKingATMSK" class="button">Check out my Github!</a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="developer_portfolio.html">Developer Portfolio</a></li>
+        <li><a href="security_portfolio.html">Security Portfolio</a></li>
+        <li><a href="qualifications.html">Qualifications</a></li>
+        <li><a href="service_section.html">Service Section</a></li>
+        <li><a href="https://github.com/ThePirateKingATMSK">Check out my Github!</a></li>
+
+    </ul>
 </h1>
+
+<body>
 <h2>
     DEVELOPER PORTFOLIO
 </h2>
@@ -23,7 +29,7 @@
         <h3>
             ETHEREUM TRADING BOT
         </h3>
-        <img src="../media/trade_bot_plot.png" width=750 height="400" alt="Trade Bot Graph">
+        <img src="../../media/trade_bot_plot.png" width=750 height="400" alt="Trade Bot Graph">
         <p> I created a python program that interacts with coinbase pro to automatically trade ethereum. It uses the
             coinbase pro API to pull live data and historical data, analyze the data with technical analysis, and
             automatically
@@ -37,7 +43,7 @@
         <h4>
             PYTHON REMOTE ACCESS TROJAN
         </h4>
-        <img src="../media/python_RAT.png" width=500 height="400" alt="Python RAT Demo">
+        <img src="../../media/python_RAT.png" width=500 height="400" alt="Python RAT Demo">
         <p> I created a simple remote access tool with python. It opens up a hidden connection to a command and control
             server I have running on a raspberry pi, although for this example I simply ran both of the scripts on my
             own
@@ -50,5 +56,7 @@
     </div>
 
 </div>
+
+
 </body>
 </html>
