@@ -58,12 +58,40 @@ p {
     border: solid 4px #75372a;
 }
 
+img {
+    display: block;
+    margin: 0 auto 5px auto;
+    width: 98%;
+    border: solid 4px #ffffff;
+    background-color: rgba(92, 148, 255, 0.53)
+
+}
+
+.image-hover-zoom {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    width: 60%;
+    height: auto;
+    margin: -25px 25px;
+    border: solid 4px #ffffff;
+    background-color: #252525;
+}
+
+.image-hover-zoom img {
+    transition: transform .2s;
+}
+
+.image-hover-zoom:hover img {
+    transform: scale(1.35)
+}
+
 .column {
     float: left;
 }
 
 #column_1 {
-    width: 25%
+    width: 10%
 }
 
 #column_2 {
@@ -71,5 +99,5 @@ p {
 }
 
 #column_3 {
-    width: 25%;
+    width: 40%;
 }

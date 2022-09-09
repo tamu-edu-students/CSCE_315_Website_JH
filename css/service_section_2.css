@@ -58,12 +58,8 @@ p {
     border: solid 4px #75372a;
 }
 
-.column {
-    float: left;
-}
-
 #column_1 {
-    width: 25%
+    width: 10%
 }
 
 #column_2 {
@@ -71,5 +67,5 @@ p {
 }
 
 #column_3 {
-    width: 25%;
+    width: 40%;
 }
