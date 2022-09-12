@@ -46,7 +46,11 @@ h2 {
     text-align: left;
 }
 
-p {
+img {
+    display: none;
+}
+
+#intro_text {
     margin: 10px 20px;
     padding: 5px;
     font: 100% "Cantarell Thin", sans-serif;
@@ -58,18 +62,34 @@ p {
     border: solid 4px #75372a;
 }
 
-.column {
-    float: left;
+.flex-box {
+    display: flex;
 }
 
-#column_1 {
-    width: 25%
+.left {
+    width: 0;
 }
 
-#column_2 {
+.center {
     width: 50%;
 }
 
-#column_3 {
-    width: 25%;
+.right {
+    width: 50%;
+    display: block;
+    text-align: right;
+    background-image: url("/media/Vector.png");
+    background-size: 720px 720px;
+    margin: -220px 0 0 0;
+    background-repeat: no-repeat;
+    height: 750px;
 }
+
+#contact_info {
+    font: 75% Cantarell, sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    background-color: #780000;
+}
+

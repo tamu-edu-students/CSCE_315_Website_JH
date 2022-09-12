@@ -46,7 +46,7 @@ h2 {
     text-align: left;
 }
 
-p {
+#service_text {
     margin: 10px 20px;
     padding: 5px;
     font: 100% "Cantarell Thin", sans-serif;
@@ -58,14 +58,34 @@ p {
     border: solid 4px #75372a;
 }
 
-#column_1 {
-    width: 10%
+.flex-box {
+    display: flex;
 }
 
-#column_2 {
+.left {
+    width: 0;
+}
+
+.center {
     width: 50%;
 }
 
-#column_3 {
-    width: 40%;
+.right {
+    width: 50%;
+    display: block;
+    text-align: right;
+    background-image: url("/media/Vector.png");
+    background-size: 720px 720px;
+    margin: -220px 0 0 0;
+    background-repeat: no-repeat;
+    height: auto;
 }
+
+#contact_info {
+    font: 75% Cantarell, sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    background-color: #780000;
+}
+

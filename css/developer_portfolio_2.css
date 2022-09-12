@@ -48,15 +48,17 @@ h2 {
 
 h3 {
     text-align: center;
-    font: 100% Cantarell, sans-serif;
-    padding: 10px;
+    font: 75% Cantarell, sans-serif;
+    margin: auto auto;
+    padding: 5px;
     color: white;
 }
 
 h4 {
     text-align: center;
-    font: 100% Cantarell, sans-serif;
-    padding: 10px;
+    font: 75% Cantarell, sans-serif;
+    margin: auto auto;
+    padding: 5px;
     color: white;
 }
 
@@ -79,8 +81,8 @@ img {
     text-align: center;
 }
 
-.column {
-    float: left;
+.flex-box {
+    display: flex;
 }
 
 #column_1 {

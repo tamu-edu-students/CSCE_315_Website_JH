@@ -21,9 +21,8 @@ li a {
     text-align: center;
     padding: 5px;
     margin: 5px;
-    font-size: 20px;
+    font-size: 17px;
 }
-
 
 body {
     background: radial-gradient(#8db6f8 50%, rgba(20, 71, 168, 0.53) 100%);
@@ -43,40 +42,16 @@ h1 {
 
 h2 {
     font: 75% 'Cantarell Thin', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 0.5;
     color: black;
     text-align: center;
-}
-
-title {
-    text-align: center;
-    font: 75% 'Cantarell Thin', sans-serif;
-    font-size: 30px;
-}
-
-img {
-    display: block;
-    text-align: center;
-    width: 125%;
-}
-
-p {
-    align-self: center;
-    text-align: center;
-    width: 100%;
-    padding: 5px;
-    font: 100% "Montserrat Thin", sans-serif;
-    margin: 0 -75px 10px;
-    border: solid 4px #ffffff;
-    background-color: rgba(92, 148, 255, 0.53)
 }
 
 img {
     display: block;
     margin: 0 auto 5px auto;
     width: 98%;
-    border: solid 4px #ffffff;
     background-color: rgba(92, 148, 255, 0.53)
 
 }
@@ -97,29 +72,53 @@ img {
 }
 
 .image-hover-zoom:hover img {
-    transform: scale(1.35)
+    transform: scale(1.5)
 }
 
-.column {
+p {
+    align-self: center;
+    margin: 10px 20px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 18px;
+}
+
+#p_1 {
+    display: none;
+}
+
+#p_2 {
+    display: none;
+}
+
+#p_3 {
+    display: none;
+}
+
+.flex-box {
+    display: flex;
     float: left;
 }
 
-#column_1 {
-    width: 20%;
+.left {
+    width: 20%
 }
 
-#column_2 {
-    width: 50%;
+.center {
+    display: block;
+    width: 40%;
 }
 
-#column_3 {
-    width: 30%;
+.right {
+    width: 40%;
 }
 
 #dot_1 {
     height: 350px;
     width: 350px;
-    margin: 5px 20px 0 75px;
+    margin: -50px 20px 0 75px;
     background-color: rgba(68, 68, 159, 0.58);
     border-radius: 50%;
     display: inline-block;
@@ -137,8 +136,8 @@ img {
 }
 
 #dot_3 {
-    height: 400px;
-    width: 400px;
+    height: 370px;
+    width: 370px;
     margin: -200px 0 0 150px;
     background-color: rgba(135, 206, 250, 0.8);
     border-radius: 50%;
@@ -155,4 +154,3 @@ img {
     display: inline-block;
     align-self: center;
 }
-
