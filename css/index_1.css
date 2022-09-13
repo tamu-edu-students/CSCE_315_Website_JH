@@ -24,6 +24,12 @@ li a {
     font-size: 17px;
 }
 
+#toggle_button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 body {
     background: radial-gradient(#8db6f8 50%, rgba(20, 71, 168, 0.53) 100%);
     align-content: center;
@@ -48,6 +54,7 @@ h2 {
     text-align: center;
 }
 
+
 img {
     display: block;
     margin: -20px auto 5px auto;
@@ -57,7 +64,40 @@ img {
     background-color: rgba(92, 148, 255, 0.53)
 }
 
-p {
+/* Handling extra headers for my portfolio pages */
+#dev_project_1 {
+    font: 75% 'Cantarell Thin', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: auto 150px 30px;
+    border-bottom: solid 2px #ffffff;
+}
+
+#dev_project_2 {
+    font: 75% 'Cantarell Thin', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: auto 150px 30px;
+    border-bottom: solid 2px #ffffff;
+}
+
+#security_project_1 {
+    font: 75% 'Cantarell Thin', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: auto 150px 30px;
+    border-bottom: solid 2px #ffffff;
+}
+
+#security_project_2 {
+    font: 75% 'Cantarell Thin', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: auto 150px 30px;
+    border-bottom: solid 2px #ffffff;
+}
+
+#intro_text {
     align-self: center;
     margin: 5px 75px;
     border: solid 4px #ffffff;
@@ -65,6 +105,148 @@ p {
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
     font-size: 20px;
+}
+
+#about_me_1 {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#about_me_2 {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#dev_text_1 {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#dev_text_2 {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#security_text_1 {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#security_text_2 {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#p_1 {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#p_2 {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#p_3 {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#p_4 {
+    display: none;
+}
+
+#p_5 {
+    display: none;
+}
+
+#p_6 {
+    display: none;
+}
+
+#service_text {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#contact_info {
+    align-self: center;
+    margin: 5px 75px;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    font: 100% "Montserrat Thin", sans-serif;
+    background-color: rgba(92, 148, 255, 0.53);
+    font-size: 20px;
+}
+
+#resume_2 {
+    display: none;
+}
+
+.image-hover-zoom {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    width: 70%;
+    height: auto;
+}
+
+.image-hover-zoom img {
+    transition: transform .2s;
+}
+
+.image-hover-zoom:hover img {
+    transform: scale(1.15)
 }
 
 .flex-box {
@@ -98,7 +280,7 @@ p {
 #dot_2 {
     height: 400px;
     width: 400px;
-    margin: -150px 0 0 150px;
+    margin: -150px 0 0 100px;
     background-color: rgba(135, 206, 250, 0.8);
     border-radius: 50%;
     display: inline-block;
@@ -118,7 +300,7 @@ p {
 #dot_4 {
     height: 200px;
     width: 200px;
-    margin: -100px 0 0 300px;
+    margin: -120px 0 0 200px;
     background-color: rgba(6, 79, 166, 0.8);
     border-radius: 50%;
     display: inline-block;
@@ -128,7 +310,7 @@ p {
 #dot_5 {
     height: 400px;
     width: 400px;
-    margin: -60px 100px 0 -100px;
+    margin: -60px 100px 0 -70px;
     background-color: rgba(6, 79, 166, 0.8);
     border-radius: 50%;
     display: inline-block;
@@ -138,7 +320,7 @@ p {
 #dot_6 {
     height: 350px;
     width: 350px;
-    margin: -150px 0 0 -90px;
+    margin: -190px 0 0 -70px;
     background-color: rgba(0, 169, 116, 0.8);
     border-radius: 50%;
     display: inline-block;
@@ -148,7 +330,7 @@ p {
 #dot_7 {
     height: 200px;
     width: 200px;
-    margin: -200px 50px 0 -100px;
+    margin: -220px 50px 0 -60px;
     background-color: rgba(37, 255, 174, 0.8);
     border-radius: 50%;
     display: inline-block;
@@ -156,9 +338,9 @@ p {
 }
 
 #dot_8 {
-    height: 250px;
-    width: 250px;
-    margin: -125px 20px;
+    height: 200px;
+    width: 200px;
+    margin: -120px 20px;
     background-color: rgba(68, 68, 159, 0.58);
     border-radius: 50%;
     display: inline-block;

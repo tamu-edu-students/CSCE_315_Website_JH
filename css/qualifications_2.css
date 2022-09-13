@@ -24,6 +24,15 @@ li a {
     font-size: 15px;
 }
 
+#toggle {
+    color: black;
+    background-color: #75372a;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+
 body {
     background: #252525;
     align-content: center;
