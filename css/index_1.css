@@ -47,7 +47,7 @@ h1 {
     margin: 10px 60px;
     scale: 100%;
     padding: 10px;
-    border-bottom: solid 8px #ffffff;
+    border-bottom: dashed 8px #ffffff;
 }
 
 h2 {
@@ -80,7 +80,7 @@ h2 {
     font-size: 25px;
     text-align: center;
     margin: auto 150px 30px;
-    border-bottom: solid 2px #ffffff;
+    border-bottom: double 2px #ffffff;
 }
 
 #security_project_2 {
@@ -88,13 +88,13 @@ h2 {
     font-size: 25px;
     text-align: center;
     margin: auto 150px 30px;
-    border-bottom: solid 2px #ffffff;
+    border-bottom: double 2px #ffffff;
 }
 
 #intro_text {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -104,7 +104,7 @@ h2 {
 #about_me_1 {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -114,7 +114,7 @@ h2 {
 #about_me_2 {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -124,7 +124,7 @@ h2 {
 #dev_text_1 {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -134,7 +134,7 @@ h2 {
 #dev_text_2 {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -144,7 +144,7 @@ h2 {
 #security_text_1 {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -154,7 +154,7 @@ h2 {
 #security_text_2 {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -164,7 +164,7 @@ h2 {
 #res_text_1 {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -174,7 +174,7 @@ h2 {
 #res_text_2 {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -184,7 +184,7 @@ h2 {
 #res_text_3 {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -230,7 +230,7 @@ h2 {
 #service_text {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -240,7 +240,7 @@ h2 {
 #contact_info {
     align-self: center;
     margin: 5px 75px;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     font: 100% "Montserrat Thin", sans-serif;
     background-color: rgba(92, 148, 255, 0.53);
@@ -255,7 +255,7 @@ img {
     display: block;
     margin: -20px auto 5px auto;
     width: 60%;
-    border: solid 4px #ffffff;
+    border: dotted 4px #ffffff;
     padding: 5px;
     background-color: rgba(92, 148, 255, 0.53)
 }
