@@ -24,10 +24,14 @@ li a {
     font-size: 17px;
 }
 
-#toggle_button {
+#toggle_button_one {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+#toggle_button_two {
+    display: none;
 }
 
 body {
