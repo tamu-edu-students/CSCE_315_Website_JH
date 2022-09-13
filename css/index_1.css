@@ -58,16 +58,6 @@ h2 {
     text-align: center;
 }
 
-
-img {
-    display: block;
-    margin: -20px auto 5px auto;
-    width: 60%;
-    border: solid 4px #ffffff;
-    padding: 10px;
-    background-color: rgba(92, 148, 255, 0.53)
-}
-
 /* Handling extra headers for my portfolio pages */
 #dev_project_1 {
     font: 75% 'Cantarell Thin', sans-serif;
@@ -171,7 +161,7 @@ img {
     font-size: 20px;
 }
 
-#p_1 {
+#res_text_1 {
     align-self: center;
     margin: 5px 75px;
     border: solid 4px #ffffff;
@@ -181,7 +171,7 @@ img {
     font-size: 20px;
 }
 
-#p_2 {
+#res_text_2 {
     align-self: center;
     margin: 5px 75px;
     border: solid 4px #ffffff;
@@ -191,7 +181,7 @@ img {
     font-size: 20px;
 }
 
-#p_3 {
+#res_text_3 {
     align-self: center;
     margin: 5px 75px;
     border: solid 4px #ffffff;
@@ -201,15 +191,39 @@ img {
     font-size: 20px;
 }
 
-#p_4 {
+#res_text_1_col3 {
     display: none;
 }
 
-#p_5 {
+#res_text_2_col3 {
     display: none;
 }
 
-#p_6 {
+#res_text_3_col3 {
+    display: none;
+}
+
+#dev_project_2_col3 {
+    display: none;
+}
+
+#python_rat_col3 {
+    display: none;
+}
+
+#dev_text_2_col3 {
+    display: none;
+}
+
+#security_project_2_col3 {
+    display: none;
+}
+
+#security_text_2_col3 {
+    display: none;
+}
+
+#work_experience_col3 {
     display: none;
 }
 
@@ -233,8 +247,17 @@ img {
     font-size: 20px;
 }
 
-#resume_2 {
+#resume_2_col3 {
     display: none;
+}
+
+img {
+    display: block;
+    margin: -20px auto 5px auto;
+    width: 60%;
+    border: solid 4px #ffffff;
+    padding: 5px;
+    background-color: rgba(92, 148, 255, 0.53)
 }
 
 .image-hover-zoom {
@@ -251,6 +274,16 @@ img {
 
 .image-hover-zoom:hover img {
     transform: scale(1.15)
+}
+
+#hackthebox {
+    display: block;
+    width: 80%;
+}
+
+#work_experience {
+    display: block;
+    width: 80%;
 }
 
 .flex-box {
@@ -270,6 +303,7 @@ img {
 .right {
     width: 25%;
 }
+
 
 #dot_1 {
     height: 250px;
